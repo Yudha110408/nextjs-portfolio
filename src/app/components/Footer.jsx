@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container p-12 flex justify-between">
-        <span>LOGO</span>
-        <p className="text-slate-600">All rights reserved.</p>
+    <footer className='footer border z-10 border-t-transparent border-l-transparent border-r-transparent text-white'>
+      <div className='container p-12 flex justify-between'>
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500">
+          hmm
+        </span>
+        <p className='text-yellow-500'>All rights reserved.</p>
       </div>
     </footer>
   );
