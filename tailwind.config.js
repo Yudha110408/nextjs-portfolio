@@ -16,8 +16,11 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
+      primary: colors.sky, // Ganti dari 'lightBlue' ke 'sky'
       secondary: colors.pink,
+      neutral: colors.gray, // Ganti dari 'coolGray' ke 'gray'
+      stone: colors.stone, // Ganti dari 'warmGray' ke 'stone'
+      slate: colors.slate, // Ganti dari 'blueGray' ke 'slate'
     },
   },
   plugins: [],
